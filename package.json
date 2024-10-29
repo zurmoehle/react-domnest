@@ -1,7 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "name": "react-domnest",
-  "version": "0.0.2",
+  "repository": "https://github.com/zurmoehle/react-domnest",
+  "version": "0.0.3",
   "description": "A lightweight utility for dynamically mounting React components using HTML data attributes. Provides synchronous and asynchronous component registration, flexible attribute naming, scoped updates, and support for React 18's createRoot API. Ideal for embedding React in CMS-managed environments.",
   "main": "dist/index.js",
   "scripts": {
@@ -18,7 +19,7 @@
     "createRoot",
     "react18"
   ],
-  "author": "360VIER",
+  "author": "CreativeOne",
   "license": "ISC",
   "dependencies": {
     "@babel/preset-env": "^7.26.0",
