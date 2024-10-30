@@ -1,6 +1,6 @@
-declare module 'react-domnest' {
-    import { OptionsType, OptionsStrictType } from './types';
+import { type OptionsType, type OptionsStrictType } from './src/types';
 
+declare module 'react-domnest' {
     export default class DomNest {
         options: OptionsStrictType;
         registry: any; // Replace with actual type if known
